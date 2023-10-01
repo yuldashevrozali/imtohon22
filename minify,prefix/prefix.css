@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 @import url(fonts.scss);
 @import url(fontsawesome.scss);
 @import url(normalize.scss);
@@ -63,13 +71,12 @@ body a {
 .header .header_header1 .header_locate p {
   margin-top: 0px;
   margin-left: 10px;
-  font-size: 32px;
-  color: #6c7177;
-  font-family: "Gilroy";
+  font-size: 12px;
+  font-family: "Gilroy,sans-serif";
 }
 
 .header .header_header1 .header_locate i {
-  font-size: 44px;
+  font-size: 14px;
   height: 5px;
 }
 
@@ -257,7 +264,7 @@ body a {
   display: none;
 }
 
-.header .img11 {
+.header img {
   width: 1360px;
 }
 
@@ -305,8 +312,6 @@ body a {
 
 .header .header3 ul li p {
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .header .header3 ul li p:hover {
@@ -509,8 +514,6 @@ body a {
   background-color: #D92E15;
   border: none;
   margin-right: 10px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 .hero .hero_news .block1 .buttons .button1:hover {
@@ -683,6 +686,7 @@ body a {
   background-color: #D92E15;
   margin-top: -10px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   margin-left: -5px;
   cursor: pointer;
@@ -1626,10 +1630,6 @@ body a {
   .header .header_header1 {
     display: none;
   }
-  .header .img11 {
-    width: 375px;
-    height: 100px;
-  }
   .header .header2 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1648,14 +1648,14 @@ body a {
   .header .header2 .header_logo {
     margin-left: 50px;
   }
+  .header .header2 .header2_menu {
+    display: none;
+  }
   .header .header2 .header_katalog button {
     display: none;
   }
   .header .header2 .header_form {
     display: none;
-  }
-  .header .header2 .header_end {
-    display: block;
   }
   .header .mobile_form {
     display: block;
@@ -1689,24 +1689,4 @@ body a {
     overflow-y: hidden;
     scroll-behavior: hidden;
   }
-  .footer .footer3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 85px;
-    position: fixed;
-    background-color: #FFF;
-  }
-  .footer .footer3 .block {
-    margin-right: 10px;
-  }
-  .footer .footer3 .block i {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  .footer .footer3 .block1 i {
-    margin-left: 10px;
-  }
 }
-/*# sourceMappingURL=style.css.map */
