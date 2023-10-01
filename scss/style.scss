@@ -105,6 +105,9 @@ body{
         display: flex;
         margin-bottom: 10px;
         
+        .fa-bars-sort{
+            display: none;
+        }
         .header_logo{
             margin-right: 20px;
             margin-left: 53px;
@@ -115,6 +118,9 @@ body{
             }
         }
 
+        .fa-location-dot{
+            display: none;
+        }
         .header_katalog{
             margin-right: 27px;
             margin-left: 30px;
@@ -228,6 +234,10 @@ body{
                 }
             }
         }
+    }
+
+    .mobile_form{
+        display: none;
     }
 
     img{
@@ -1455,12 +1465,87 @@ body{
 @media screen and(max-width:1380px) {
     .header3{
         margin-top: 0px;
-        overflow-y: hidden;
-        scroll-behavior: hidden;
         padding-top: 10px;
         ul{
             margin-left: 70px;
             margin-top: -30px;
+        }
+    }
+    
+    
+}
+
+@media screen and (max-width:375px) {
+    .header{
+        .header_header1{
+            display: none;
+        }
+
+        .header2{
+            flex-wrap: wrap;
+            .fa-location-dot{
+                display: block;
+                font-size: 30px;
+                margin-left: 40px;
+                margin-top: 8px;
+            }
+            .fa-bars-sort{
+                display: block;
+                font-size: 35px;
+                margin-left: 20px;
+            }
+
+            .header_logo{
+                margin-left: 50px;
+            }
+
+            .header2_menu{
+                display: none;
+            }
+            .header_katalog{
+                button{
+                    display: none;
+                }
+            }
+
+            .header_form{
+                display: none ;
+            }
+
+        }
+
+        .mobile_form{
+            display: block;
+            margin-left: 40px;
+            form{
+                width: 275px;
+                height: 35px;
+                border: 1px solid #757a80;
+                border-radius: 10px;
+                padding-top: 5px;
+                input{
+                    border: none;
+                    font-size: 16px;
+                    padding-top: 6px;
+                    padding-left: 8px;
+                }
+
+                button{
+                    border: none;
+                    width: 50px;
+                    height: 33px;
+                    margin-top: -5px;
+                    border-radius: 10px;
+                    background-color: $qizil;
+                    i{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .header3{
+            overflow-y: hidden;
+            scroll-behavior: hidden;
         }
     }
     

@@ -115,6 +115,10 @@ body a {
   margin-bottom: 10px;
 }
 
+.header .header2 .fa-bars-sort {
+  display: none;
+}
+
 .header .header2 .header_logo {
   margin-right: 20px;
   margin-left: 53px;
@@ -124,6 +128,10 @@ body a {
 .header .header2 .header_logo img {
   width: 155px;
   height: 20px;
+}
+
+.header .header2 .fa-location-dot {
+  display: none;
 }
 
 .header .header2 .header_katalog {
@@ -242,6 +250,10 @@ body a {
   font-size: 20px;
   margin-top: -7px;
   margin-left: 5px;
+}
+
+.header .mobile_form {
+  display: none;
 }
 
 .header img {
@@ -1597,13 +1609,76 @@ body a {
 @media screen and (max-width: 1380px) {
   .header3 {
     margin-top: 0px;
-    overflow-y: hidden;
-    scroll-behavior: hidden;
     padding-top: 10px;
   }
   .header3 ul {
     margin-left: 70px;
     margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header .header_header1 {
+    display: none;
+  }
+  .header .header2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header .header2 .fa-location-dot {
+    display: block;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 8px;
+  }
+  .header .header2 .fa-bars-sort {
+    display: block;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  .header .header2 .header_logo {
+    margin-left: 50px;
+  }
+  .header .header2 .header2_menu {
+    display: none;
+  }
+  .header .header2 .header_katalog button {
+    display: none;
+  }
+  .header .header2 .header_form {
+    display: none;
+  }
+  .header .mobile_form {
+    display: block;
+    margin-left: 40px;
+  }
+  .header .mobile_form form {
+    width: 275px;
+    height: 35px;
+    border: 1px solid #757a80;
+    border-radius: 10px;
+    padding-top: 5px;
+  }
+  .header .mobile_form form input {
+    border: none;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-left: 8px;
+  }
+  .header .mobile_form form button {
+    border: none;
+    width: 50px;
+    height: 33px;
+    margin-top: -5px;
+    border-radius: 10px;
+    background-color: #D92E15;
+  }
+  .header .mobile_form form button i {
+    color: white;
+  }
+  .header .header3 {
+    overflow-y: hidden;
+    scroll-behavior: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
