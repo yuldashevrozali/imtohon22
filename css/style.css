@@ -1598,6 +1598,7 @@ body a {
   .header3 {
     margin-top: 0px;
     overflow-y: hidden;
+    padding-top: 10px;
   }
   .header3 ul {
     margin-left: 70px;
