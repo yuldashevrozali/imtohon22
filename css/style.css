@@ -318,6 +318,10 @@ body a {
   margin-left: 50px;
 }
 
+.hero .hero_kotegoriyalar h1 {
+  font-size: 24px;
+}
+
 .hero .hero_kotegoriyalar .blocks {
   gap: 15px;
   display: -webkit-box;
@@ -1611,6 +1615,10 @@ body a {
   font-size: 25px;
 }
 
+.footer .footer3 {
+  display: none;
+}
+
 @media screen and (max-width: 1380px) {
   .header3 {
     margin-top: 0px;
@@ -1688,6 +1696,24 @@ body a {
   .header .header3 {
     overflow-y: hidden;
     scroll-behavior: hidden;
+  }
+  .hero {
+    margin-left: -50px;
+  }
+  .hero .hero_kotegoriyalar {
+    overflow-y: hidden;
+    width: 372px;
+    padding-left: -50px;
+  }
+  .hero .hero_kotegoriyalar .blocks .block p {
+    font-size: 12px;
+  }
+  .hero .hero_kotegoriyalar .blocks .block i {
+    font-size: 24px;
+  }
+  .hero .hero_kotegoriyalar h1 {
+    z-index: 1;
+    font-size: 14px;
   }
   .footer .footer3 {
     display: -webkit-box;
