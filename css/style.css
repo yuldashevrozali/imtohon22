@@ -1750,6 +1750,9 @@ body a {
     font-size: 12px;
     margin-top: 10px;
   }
+  .hero .hero_news .news_block .block1 .buttons .button1 i {
+    font-size: 12px;
+  }
   .footer .footer3 {
     display: -webkit-box;
     display: -ms-flexbox;
