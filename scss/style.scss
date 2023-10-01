@@ -1588,6 +1588,54 @@ body{
                 font-size: 14px;
             }
         }
+
+        .hero_news{
+            overflow-y: hidden;
+            h1{
+                font-size: 14px;
+            }
+            .fa-arrow-left{
+                display: none;
+            }
+
+            .fa-arrow-right{
+                display: none;
+            }
+
+            .news_block{
+                .block1{
+                    img{
+                        width: 146px;
+                        height: 146px;
+                    }
+
+                    h1{
+                        font-size: 14px;
+                    }
+                    button{
+                        width: 140px;
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+
+                    p{
+                        font-size: 12px;
+                    }
+
+                    .star{
+                        i{
+                            font-size: 12px;
+                        }
+
+                        p{
+                            font-size: 12px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .footer{
