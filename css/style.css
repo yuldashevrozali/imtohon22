@@ -1598,7 +1598,7 @@ body a {
   .header3 {
     margin-top: 0px;
     overflow-y: hidden;
-    scroll-behavior: unset;
+    scroll-behavior: hidden;
     padding-top: 10px;
   }
   .header3 ul {
