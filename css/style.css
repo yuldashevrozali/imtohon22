@@ -249,7 +249,7 @@ body a {
 }
 
 .header .header3 {
-  margin-top: 15px;
+  margin-top: 45px;
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,7 +259,6 @@ body a {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  overflow-y: hidden;
 }
 
 .header .header3 button {
@@ -284,6 +283,7 @@ body a {
   font-size: 14px;
   z-index: 1;
   font-family: "Gilroy", sans-serif;
+  overflow-y: hidden;
 }
 
 .header .header3 ul li {

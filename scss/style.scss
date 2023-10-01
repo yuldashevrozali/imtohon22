@@ -235,12 +235,12 @@ body{
     }
 
     .header3{
-        margin-top: 15px;
+        margin-top: 45px;
         margin-left: 50px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        overflow-y: hidden ;
+        // overflow-y: hidden ;
         button{
             width: 92px;
             background-color: #fff;
@@ -263,6 +263,7 @@ body{
             z-index: 1;
             
             font-family: "Gilroy", sans-serif;
+            overflow-y: hidden;
             li{
                 list-style: none;
                 
