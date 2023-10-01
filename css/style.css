@@ -259,7 +259,7 @@ body a {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header .header3 button {
