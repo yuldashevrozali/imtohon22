@@ -263,7 +263,7 @@ body{
             z-index: 1;
             
             font-family: "Gilroy", sans-serif;
-            overflow-y: hidden;
+
             li{
                 list-style: none;
                 
@@ -1455,6 +1455,7 @@ body{
 @media screen and(max-width:1380px) {
     .header3{
         margin-top: 0px;
+        overflow-y: hidden;
         ul{
             margin-left: 70px;
             margin-top: -30px;
